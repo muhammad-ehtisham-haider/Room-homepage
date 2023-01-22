@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+}
+.up{
+    display: flex;
+}
+#left{
+    width: 60%;
+    min-height: 70vh;
+    padding: 50px;
+    background-image: url(images/desktop-image-hero-1.jpg);
+    background-size: cover;
+}
+.nav{
+    display: flex;
+}
+.navbar ul{
+    display: flex;
+    margin-left: 60px;
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+.show, .show-one, .show-two{
+    width: 40%;
+}
+#right {
+    width: 100%;
+    height: 70vh;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content{
+    padding: 100px 100px 0 100px;
+}
+.shop{
+    margin-top: 20px;
+}
+.shop p{
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+.shop p:hover{
+    cursor: pointer;
+    color: gray;
+}
+.btns{
+    display: flex;
+}
+#a ,#c, #e{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#b, #d , #f{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#a:hover , #b:hover ,#c:hover , #d:hover , #e:hover , #f:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.para-1{
+    color: gray;
+}
+
+
+/* down  */
+.down{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+}
+.one, .three{
+    width: 30%;
+    height:100% ;
+}
+.two{
+    width: 40%;
+    padding: 30px ;
+}
+.one img, .three img{
+    width: 100%;
+    height: 100%;
+}
+.shop-1{
+    letter-spacing: 4px;
+    font-weight: 600;
+
+}
+.down .para-1{
+    margin-top: 20px;
+}
+
